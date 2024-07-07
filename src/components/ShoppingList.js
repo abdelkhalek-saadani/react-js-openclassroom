@@ -19,6 +19,12 @@ function ShoppingList() {
 				{plantList.map((plant) => (
 					<li key={plant.id} className='jh-plant-item'>
 						{plant.name}
+            {plant.isSpecialOffer ? <div className="jh-sales">
+              Sale
+            </div>: null}
+            {/* {plant.isSpecialOffer && <div className="jh-sales">
+              Sale
+            </div>} */}
 					</li>
 				))}
 			</ul>
