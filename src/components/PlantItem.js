@@ -11,8 +11,8 @@ function PlantItem({ cover, name, water, light }) {
 			<img className='jh-plant-item-cover' src={cover} alt={`${name} cover`} />
 			{name}
 			<div>
-				<CareScale careType='water' scaleValue={water} />
-				<CareScale careType='light' scaleValue={light} />
+				<CareScale careType='water' scaleValue={water} plantName={name} />
+				<CareScale careType='light' scaleValue={light} plantName={name}/>
 			</div>
 		</li>
 	)
