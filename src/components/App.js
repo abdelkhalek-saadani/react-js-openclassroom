@@ -7,7 +7,15 @@ import ShoppingList from './ShoppingList'
 import '../styles/Layout.css'
 
 function App() {
-	const [cart, updateCart] = useState([])
+	const [cart, updateCart] = useState(() => {
+		let cartFromLocalStorage = localStorage.getItem('cart');
+		if (cartFromLocalStorage) {
+			return JSON.parse(cartFromLocalStorage)
+		}
+		else return []
+	})
+	// const [cart, updateCart] = useState([]);
+	console.log("from App component ",cart);
 	return (
 		<div>
 			<Banner>
