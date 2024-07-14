@@ -1,2 +1,2 @@
-# react-js-openclassroom
-This repo contains my solution for the exercises from the OpenClassrooms - Create a Web Application With React.js course.
+# React-js-OpenClassroom
+This repo contains my solution for the exercises from the OpenClassrooms - <a href="https://openclassrooms.com/en/courses/7132446-create-a-web-application-with-react-js">Create a Web Application With React.js course<a/>.
