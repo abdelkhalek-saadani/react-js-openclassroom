@@ -8,6 +8,8 @@ function Cart({ cart, updateCart }) {
     (acc, item) => acc + cart[item].amount * cart[item].price,
     0
   );
+  // console.log('this is the cart variable ',cart)
+  // console.log('this is the items variable ',items)
   useEffect(() => {
     document.title = `LMJ: ${total}€ in purchases`;
   }, [total]);
