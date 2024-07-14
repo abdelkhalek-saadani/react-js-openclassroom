@@ -2,7 +2,7 @@ import CareScale from "./CareScale";
 import "../styles/PlantItem.css";
 
 function PlantItem(props) {
-  const { name, cover, id, light, water } = props;
+  const { name, cover, id, light, water, isSpecialOffer } = props;
   return (
     //   style={{
     //     border: "solid 1px black",
@@ -20,6 +20,10 @@ function PlantItem(props) {
       />
       <CareScale careType="water" scaleValue={water} />
       <CareScale careType="light" scaleValue={light} />
+      {isSpecialOffer ? <div className="jh-sales">Sale</div> : null}
+      {/* {plant.isSpecialOffer && <div className="jh-sales" >
+              Sale
+            </div>} */}
     </li>
   );
 }

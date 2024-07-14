@@ -6,14 +6,4 @@
 	max-width: 800px;
 }
 
-.jh-plant-item {
-	border: solid 2px black;
-	border-radius: 10px;
-	height: 150px;
-	width: 150px;
-	margin: 10px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-}
+
