@@ -1,6 +1,6 @@
 # OpenClassrooms - Create a Web Application With React.js
 
-This repo contains the my solutions for the exercises you will find in the 
+This repo contains my solutions for the exercises you will find in the 
 [OpenClassrooms - Create a Web Application With React.js](https://openclassrooms.com/en/courses/7132446-create-a-web-application-with-react-js) course.
 <a href="https://github.com/OpenClassrooms-Student-Center/7132446-React/tree/master">Original Github repo</a>
 
@@ -28,14 +28,14 @@ This repo contains the my solutions for the exercises you will find in the
 
 ### Part 3 - Manage Data in a React App Using State and Effects
 
-| Content | Begin | Solution |
-| --- | --- | --- |
+| Content | Solution |
+| --- | --- |
 | [Chapter 1](https://openclassrooms.com/en/courses/7132446-create-a-web-application-with-react-js/7208636-set-up-your-local-state-with-usestate)  | [Solution branch](https://github.com/abdelkhalek-saadani/react-js-openclassroom/tree/P3C1-Begin) |
 | [Chapter 2](https://openclassrooms.com/en/courses/7132446-create-a-web-application-with-react-js/7208826-share-state-between-different-components) | [Solution branch](https://github.com/abdelkhalek-saadani/react-js-openclassroom/tree/P3C2-Begin) |
 | [Chapter 3](https://openclassrooms.com/en/courses/7132446-create-a-web-application-with-react-js/7209016-trigger-effects-with-useeffect)             | [Solution branch](https://github.com/abdelkhalek-saadani/react-js-openclassroom/tree/P3C3-Begin) |
 
 ### Part 4 - Conclusion
 
-| Content | Begin | Solution |
-| --- | --- | --- |
-| [Chapter 1](https://openclassrooms.com/en/courses/7132446-create-a-web-application-with-react-js/7209811-review-what-you-ve-learned) | - | - |
+| Content |
+| --- |
+| [Chapter 1](https://openclassrooms.com/en/courses/7132446-create-a-web-application-with-react-js/7209811-review-what-you-ve-learned) |
